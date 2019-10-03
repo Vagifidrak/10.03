@@ -1,0 +1,45 @@
+.Latest .container h2{
+    text-align: center;
+}
+.Latest .Data{
+    display: flex;
+    color:#979797;
+    padding: 15px;
+}
+.Latest {
+    text-align: center;
+}
+.latestItem{
+    border: 1px solid #e4e2e2;
+}
+.latestItem .latest-photo{
+    position: relative;
+}
+.latestItem .latest-photo::after{
+   opacity: 0;
+   transition: .4s;
+   
+}
+.latestItem .latest-photo:hover::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .4;
+}
+.latestItem a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.latestItem a:hover{
+    color: #85B839;
+    transition: .3s;
+}
+
+.latestItem .bring{
+    color:#979797;
+}
