@@ -1,45 +1,195 @@
-.Latest .container h2{
+.top-header {
+    background: #85B839;
+    color: white;
+}
+
+/* ==========
+HEADER START
+ ==========  */
+#header {
+    padding: 2em 0;
+}
+
+.language,
+.mainDrop:hover ul {
+    display: block;
+}
+
+.search-category input,
+.search-category select {
+    border: none;
+}
+
+.search-category input:focus,
+.search-category select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.search-category {
+    border: 1px solid #ccc;
+    padding: 5px 25px;
+    border-radius: 25px;
+}
+
+.search-form {
+    position: relative;
+}
+
+.search-form i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+/* ==========
+HEADER END
+==========  */
+
+/* ==========
+NAVBAR START
+==========  */
+.NavBar {
+    background: #EBEBEB;
+    padding: 10px;
+}
+
+.NavBar select {
+    border: none;
+    background: #EBEBEB;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ==========
+NAVBAR END
+==========  */
+
+/* ==========
+DISCOUNTS START
+========== */
+.Discounts .col-lg-8 {
+    padding-right: 0;
+}
+
+.ImageDrect {
+    margin-top: 15px;
+    background: url(http://tuongnam.com.vn/vereesa/assets/images/slider-thumb6.jpg);
+    height: 500px;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+}
+
+.slider-infor {
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 15px;
+}
+
+.light-collection {
+    background: url(http://tuongnam.com.vn/vereesa/assets/images/banner-home-5.jpg);
+    height: 242px;
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.lightInform {
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 15px;
+}
+
+.lightInform p {
+    color: rgb(158, 158, 158);
+    margin-bottom: 12px;
+}
+
+.light-collection .second {
+    background: url(http://tuongnam.com.vn/vereesa/assets/images/banner-home-6.jpg) !important;
+    width: 100%;
+    height: 242px;
+    border-radius: 8px;
+}
+
+.Discounts .slider-infor p,
+.light-collection .second span {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #85b839;
+    text-decoration: underline;
+}
+
+.slider-infor h5 {
+    color: #85B839;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* ==========
+DISCOUNTS END
+==========  */
+
+/* ==========
+LATEST START
+========== */
+.Latest .container h2 {
     text-align: center;
 }
-.Latest .Data{
+
+.Latest .Data {
     display: flex;
-    color:#979797;
+    color: #979797;
     padding: 15px;
 }
+
 .Latest {
     text-align: center;
 }
-.latestItem{
+
+.latestItem {
     border: 1px solid #e4e2e2;
 }
-.latestItem .latest-photo{
+
+.latestItem .latest-photo {
     position: relative;
 }
-.latestItem .latest-photo::after{
-   opacity: 0;
-   transition: .4s;
-   
+
+.latestItem .latest-photo::after {
+    opacity: 0;
+    transition: .4s;
+
 }
-.latestItem .latest-photo:hover::after{
+
+.latestItem .latest-photo:hover::after {
     content: '';
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: black;
     opacity: .4;
 }
-.latestItem a{
+
+.latestItem a {
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
-.latestItem a:hover{
+
+.latestItem a:hover {
     color: #85B839;
     transition: .3s;
 }
 
-.latestItem .bring{
-    color:#979797;
+.latestItem .bring {
+    color: #979797;
 }
+
+/* ==========
+LATEST END
+========== */
