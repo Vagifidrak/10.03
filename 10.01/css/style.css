@@ -90,7 +90,6 @@ DISCOUNTS START
 .light-collection {
     background: url(http://tuongnam.com.vn/vereesa/assets/images/banner-home-5.jpg);
     height: 242px;
-    width: 100%;
     margin-top: 15px;
     position: relative;
     border-radius: 8px;
@@ -220,6 +219,14 @@ Deal START
 .DealLight .IconItem {
     color: #ffb933;
     text-align: center;
+}
+
+.DealLight .DataTitle span{
+border:1px solid #85B839;
+padding:10px 5px 11px;
+border-radius: 50%;
+background: #85B839; 
+margin-right: 8px;
 }
 
 /* ==========
