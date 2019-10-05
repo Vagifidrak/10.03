@@ -193,3 +193,35 @@ LATEST START
 /* ==========
 LATEST END
 ========== */
+
+/* ==========
+Deal START
+==========  */
+.LightTitle {
+    font-size: 32px;
+    color: #222222;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 15px;
+    position: relative;
+    font-family: inherit;
+    font-weight: 700;
+    letter-spacing: 0;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DealLight .col-lg-3 p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.DealLight .IconItem {
+    color: #ffb933;
+    text-align: center;
+}
+
+/* ==========
+Deal END
+==========  */
